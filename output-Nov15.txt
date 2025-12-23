@@ -1,0 +1,99 @@
+$ python langchain-course/main.py
+
+> Entering new AgentExecutor chain...
+To find job postings for an AI Engineer using LangChain in the Bay Area on LinkedIn, I will use the tavily_search tool to perform a search focusing on LinkedIn job listings.
+
+Action: tavily_search
+Action Input: "AI Engineer LangChain Bay Area site:linkedin.com/jobs"
+{'query': 'AI Engineer LangChain Bay Area', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'title': 'AI Engineer – LangChain / RAG / Vector Search / Fine-Tuning', 'url': 'https://www.linkedin.com/jobs/view/4190451093', 'content': 'Posted 8:27:17 PM. Job Title: AI Engineer – LangChain / RAG / Vector Search / Fine-TuningLocation: Remote Type:…See this and similar jobs on LinkedIn.', 'score': 0.9998104, 'raw_content': None}, {'title': 'LangChain hiring Senior Full Stack Engineer, Observability ...', 'url': 'https://www.linkedin.com/jobs/view/senior-full-stack-engineer-observability-evals-platform-langsmith-at-langchain-4318517192', 'content': '[Skip to main content](https://www.linkedin.com/jobs/view/senior-full-stack-engineer-observability-evals-platform-langsmith-at-langchain-4318517192#main-content)[LinkedIn](https://www.linkedin.com/?trk=public_jobs_nav-header-logo) [LangChain](https://www.linkedin.com/company/langchain?trk=public_jobs_sub-nav-cta-optional-url "LangChain")San Francisco, CA #### [LangChain](https://www.linkedin.com/company/langchain?trk=public_jobs_topcard-org-name) San Francisco, CA  *   [Software Engineer, Search Platform](https://www.linkedin.com/jobs/view/software-engineer-search-platform-at-notion-4334376914?refId=VymeGxdLlKF8gnoSGe873w%3D%3D&trackingId=5qzkhejDjXsRBlOU4ghjdg%3D%3D)![Image 16](https://www.linkedin.com/jobs/view/senior-full-stack-engineer-observability-evals-platform-langsmith-at-langchain-4318517192)### Software Engineer, Search Platform [Encord](https://www.linkedin.com/company/encord-team?trk=public_jobs_people-also-viewed_aside-job-card-subtitle) *   [Java Software Engineer jobs](https://www.linkedin.com/jobs/java-software-engineer-jobs?trk=public_jobs_linkster_link) *   [Developer jobs](https://www.linkedin.com/jobs/developer-jobs?trk=public_jobs_linkster_link) *   [Senior Web Engineer jobs](https://www.linkedin.com/jobs/senior-web-engineer-jobs?trk=public_jobs_linkster_link) *   [Senior Software Engineer jobs](https://www.linkedin.com/jobs/senior-software-engineer-jobs?trk=public_jobs_linkster_link) *   [Senior Web Developer jobs](https://www.linkedin.com/jobs/senior-web-developer-jobs?trk=public_jobs_linkster_link) *   [Associate Software Engineer jobs](https://www.linkedin.com/jobs/associate-software-engineer-jobs?trk=public_jobs_linkster_link) *   [Web Application Developer jobs](https://www.linkedin.com/jobs/web-application-developer-jobs?trk=public_jobs_linkster_link) *   [Software Engineer jobs](https://www.linkedin.com/jobs/software-engineer-jobs?trk=public_jobs_linkster_link) *   [Engineer jobs](https://www.linkedin.com/jobs/engineer-jobs?trk=public_jobs_linkster_link) *   [Junior Software Engineer jobs](https://www.linkedin.com/jobs/junior-software-engineer-jobs?trk=public_jobs_linkster_link) *   [Web Software Engineer jobs](https://www.linkedin.com/jobs/web-software-engineer-jobs?trk=public_jobs_linkster_link) *   [Lead Web Developer jobs](https://www.linkedin.com/jobs/lead-web-developer-jobs?trk=public_jobs_linkster_link) *   [Application Developer jobs](https://www.linkedin.com/jobs/application-developer-jobs?trk=public_jobs_linkster_link) *   [Web Engineer jobs](https://www.linkedin.com/jobs/web-engineer-jobs?trk=public_jobs_linkster_link) *   [Senior Lead Software Engineer jobs](https://www.linkedin.com/jobs/senior-lead-software-engineer-jobs?trk=public_jobs_linkster_link) *   [Senior Lead Developer jobs](https://www.linkedin.com/jobs/senior-lead-developer-jobs?trk=public_jobs_linkster_link) *   [Lead Software Engineer jobs](https://www.linkedin.com/jobs/lead-software-engineer-jobs?trk=public_jobs_linkster_link) *   [Senior Web Application Developer jobs](https://www.linkedin.com/jobs/senior-web-application-developer-jobs?trk=public_jobs_linkster_link) *   [Contract Software Engineer jobs](https://www.linkedin.com/jobs/contract-software-engineer-jobs?trk=public_jobs_linkster_link) *   [Freelance Software Engineer jobs](https://www.linkedin.com/jobs/freelance-software-engineer-jobs?trk=public_jobs_linkster_link)', 'score': 0.99945146, 'raw_content': None}, {'title': 'LangChain hiring Applied AI Engineer in San Francisco, CA ...', 'url': 'https://www.linkedin.com/jobs/view/applied-ai-engineer-at-langchain-4299778619?pageNum=0&refId=K4OKW9CySXrChtYjeaG7gA==', 'content': 'Expertise in LangChain /LangGraph. Experience in Applied AI research roles. Experience building full-stack applications end-to-end, including both design/frontend & backend implementation.', 'score': 0.9990073, 'raw_content': None}, {'title': 'Together AI hiring AI Engineer , Ecosystem in San Francisco Bay Area', 'url': 'https://www.linkedin.com/jobs/view/3751149332/?capColoOverride=true', 'content': 'AI Engineer , Ecosystem. Together AI San Francisco Bay Area .Together AI is looking for an AI Engineer who will develop systems and APIs that enable our customers to perform inference and fine tune LLMs and integrate those APIs into third-party AI toolchains such as Langchain .', 'score': 0.9987056, 'raw_content': None}, {'title': '4,000+ Langchain jobs in United States - LinkedIn', 'url': 'https://www.linkedin.com/jobs/langchain-jobs', 'content': "Today's top 4,000+ Langchain jobs in United States. Leverage your professional network, and get hired. New Langchain jobs added daily.", 'score': 0.9964342, 'raw_content': None}], 'response_time': 4.94, 'request_id': '0ce21a5f-ed51-4148-8e30-474a6a03b0fb'}Traceback (most recent call last):
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_classic/agents/agent.py", line 1332, in _iter_next_step
+    output = self._action_agent.plan(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_classic/agents/agent.py", line 451, in plan
+    for chunk in self.runnable.stream(inputs, config={"callbacks": callbacks}):
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 3470, in stream
+    yield from self.transform(iter([input]), config, **kwargs)
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 3456, in transform
+    yield from self._transform_stream_with_config(
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 2283, in _transform_stream_with_config
+    chunk: Output = context.run(next, iterator)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 3422, in _transform
+    yield from final_pipeline
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 1533, in transform
+    yield from self.stream(final, config, **kwargs)
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 1126, in stream
+    yield self.invoke(input, config, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/output_parsers/base.py", line 197, in invoke
+    return self._call_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/runnables/base.py", line 2021, in _call_with_config
+    context.run(
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/runnables/config.py", line 428, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/output_parsers/base.py", line 198, in <lambda>
+    lambda inner_input: self.parse_result(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_core/output_parsers/base.py", line 251, in parse_result
+    return self.parse(result[0].text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_classic/agents/output_parsers/react_single_input.py", line 78, in parse
+    raise OutputParserException(
+langchain_core.exceptions.OutputParserException: Could not parse LLM output: `I have found several job postings for AI Engineers using LangChain in the Bay Area on LinkedIn. Here are the details of three relevant job listings:
+
+1. **AI Engineer – LangChain / RAG / Vector Search / Fine-Tuning**
+   - **Location:** Remote
+   - **Details:** This job involves working with LangChain, RAG, Vector Search, and Fine-Tuning.
+   - **Link:** [AI Engineer Job Posting](https://www.linkedin.com/jobs/view/4190451093)
+
+2. **Senior Full Stack Engineer, Observability & Evals Platform – Langsmith at LangChain**
+   - **Location:** San Francisco, CA
+   - **Details:** The role is focused on observability and evals platform as part of the Langsmith team at LangChain.
+   - **Link:** [Senior Full Stack Engineer Job Posting](https://www.linkedin.com/jobs/view/senior-full-stack-engineer-observability-evals-platform-langsmith-at-langchain-4318517192)
+
+3. **Applied AI Engineer at LangChain**
+   - **Location:** San Francisco, CA
+   - **Details:** This position requires expertise in LangChain/LangGraph and experience in Applied AI research roles, as well as building full-stack applications.
+   - **Link:** [Applied AI Engineer Job Posting](https://www.linkedin.com/jobs/view/applied-ai-engineer-at-langchain-4299778619?pageNum=0&refId=K4OKW9CySXrChtYjeaG7gA==)
+
+These jobs highlight the demand for skills in LangChain among AI Engineers in the Bay Area.`
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/main.py", line 48, in <module>
+    main()
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/main.py", line 36, in main
+    result = chain.invoke(
+             ^^^^^^^^^^^^^
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_classic/chains/base.py", line 167, in invoke
+    self._call(inputs, run_manager=run_manager)
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_classic/agents/agent.py", line 1605, in _call
+    next_step_output = self._take_next_step(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_classic/agents/agent.py", line 1305, in _take_next_step
+    list(
+  File "/Users/jsaddle/SrcCode/tryout/ai-python/langchain_example1/langchain-course/.venv/lib/python3.11/site-packages/langchain_classic/agents/agent.py", line 1349, in _iter_next_step
+    raise ValueError(msg) from e
+ValueError: An output parsing error occurred. In order to pass this error back to the agent and have it try again, pass `handle_parsing_errors=True` to the AgentExecutor. This is the error: Could not parse LLM output: `I have found several job postings for AI Engineers using LangChain in the Bay Area on LinkedIn. Here are the details of three relevant job listings:
+
+1. **AI Engineer – LangChain / RAG / Vector Search / Fine-Tuning**
+   - **Location:** Remote
+   - **Details:** This job involves working with LangChain, RAG, Vector Search, and Fine-Tuning.
+   - **Link:** [AI Engineer Job Posting](https://www.linkedin.com/jobs/view/4190451093)
+
+2. **Senior Full Stack Engineer, Observability & Evals Platform – Langsmith at LangChain**
+   - **Location:** San Francisco, CA
+   - **Details:** The role is focused on observability and evals platform as part of the Langsmith team at LangChain.
+   - **Link:** [Senior Full Stack Engineer Job Posting](https://www.linkedin.com/jobs/view/senior-full-stack-engineer-observability-evals-platform-langsmith-at-langchain-4318517192)
+
+3. **Applied AI Engineer at LangChain**
+   - **Location:** San Francisco, CA
+   - **Details:** This position requires expertise in LangChain/LangGraph and experience in Applied AI research roles, as well as building full-stack applications.
+   - **Link:** [Applied AI Engineer Job Posting](https://www.linkedin.com/jobs/view/applied-ai-engineer-at-langchain-4299778619?pageNum=0&refId=K4OKW9CySXrChtYjeaG7gA==)
+
+These jobs highlight the demand for skills in LangChain among AI Engineers in the Bay Area.`
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE 

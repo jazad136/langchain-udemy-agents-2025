@@ -1,0 +1,15 @@
+
+1. **AI Engineer – LangChain / RAG / Vector Search / Fine-Tuning**
+   - **Location:** Remote
+   - **Details:** This job involves working with LangChain, RAG, Vector Search, and Fine-Tuning.
+   - **Link:** [AI Engineer Job Posting](https://www.linkedin.com/jobs/view/4190451093)
+
+2. **Senior Full Stack Engineer, Observability & Evals Platform – Langsmith at LangChain**
+   - **Location:** San Francisco, CA
+   - **Details:** The role is focused on observability and evals platform as part of the Langsmith team at LangChain.
+   - **Link:** [Senior Full Stack Engineer Job Posting](https://www.linkedin.com/jobs/view/senior-full-stack-engineer-observability-evals-platform-langsmith-at-langchain-4318517192)
+
+3. **Applied AI Engineer at LangChain**
+   - **Location:** San Francisco, CA
+   - **Details:** This position requires expertise in LangChain/LangGraph and experience in Applied AI research roles, as well as building full-stack applications.
+   - **Link:** [Applied AI Engineer Job Posting](https://www.linkedin.com/jobs/view/applied-ai-engineer-at-langchain-4299778619?pageNum=0&refId=K4OKW9CySXrChtYjeaG7gA==)
