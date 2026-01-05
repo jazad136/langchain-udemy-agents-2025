@@ -8,6 +8,7 @@ load_dotenv()
 from langchain_classic import hub
 from langchain_classic.agents import AgentExecutor
 from langchain_classic.agents.react.agent import create_react_agent
+
 from langchain_core.output_parsers.pydantic import PydanticOutputParser
 from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnableLambda
@@ -40,7 +41,10 @@ react_prompt_with_format_instructions = PromptTemplate(
 agent = create_react_agent(llm=llm, tools=tools, prompt=react_prompt_with_format_instructions)
 
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
-chain = agent_executor
+extract_output = RunnableLambda(lambda x : x["output"])
+parse_output = RunnableLambda(lambda x : output_parser.parse(x))
+
+chain = agent_executor | extract_output | parse_output
 
 
 def main():
