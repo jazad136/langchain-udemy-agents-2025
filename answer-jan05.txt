@@ -1,0 +1,14 @@
+{
+  "answer": "Here are three job postings related to AI and engineering: \n\n1. AI Engineer at LangChain: This role is part of the Professional Services team and requires a combination of software development, AI/ML expertise, and customer-facing skills. The work focuses on multi-agent system design to evaluation framework implementation, and deep technical expertise in agent engineering with an understanding of cloud infrastructure and deployment patterns is required. [Job Posting Link](https://www.linkedin.com/jobs/view/ai-engineer-at-langchain-4346115062) \n\n2. Senior AI Engineer at High Trail in San Francisco Bay Area: The details of this job posting are limited but indicate that the role pertains to Machine Learning and AI. It was posted 3 months ago. [Job Posting Link](https://www.linkedin.com/jobs/view/senior-ai-engineer-at-high-trail-4305594589) \n\n3. Education Engineer (Fullstack) at LangChain: The role involves helping developers and agent builders learn how to build with LangChain, LangGraph, and LangSmith by developing educational content that teaches generative AI and agent-building concepts. [Job Posting Link](https://www.linkedin.com/jobs/view/education-engineer-fullstack-at-langchain-4318297923)",
+  "sources": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/ai-engineer-at-langchain-4346115062"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/senior-ai-engineer-at-high-trail-4305594589"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/education-engineer-fullstack-at-langchain-4318297923"
+    }
+  ]
+}
