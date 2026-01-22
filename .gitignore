@@ -1,8 +1,13 @@
+# SADDLER
+# Emacs files
+*.py~
+\#*\#
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
-*.py~
+
+
 # C extensions
 *.so
 
