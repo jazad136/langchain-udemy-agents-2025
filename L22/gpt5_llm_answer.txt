@@ -1,0 +1,20 @@
+
+Here are three active LinkedIn job postings in/near Cincinnati, OH that explicitly mention LangChain:
+
+1) Senior AI/ML Software Engineer — U.S. Bank
+- Location: Cincinnati, OH
+- Why it matches: The description notes building agentic AI systems using frameworks such as LangChain and LangGraph.
+- Link: https://www.linkedin.com/jobs/view/senior-ai-ml-software-engineer-at-u-s-bank-4457385796
+
+2) Principal AI Engineer – AI Transformation — Fifth Third Bank
+- Location: Cincinnati, OH (45202)
+- Why it matches: The posting calls out knowledge of AI orchestration frameworks including LangChain (and LlamaIndex, MCPs, etc.).
+- Link: https://www.linkedin.com/jobs/view/principal-ai-engineer-ai-transformation-at-fifth-third-bank-4440797106
+
+3) GenAI Applied Scientist and Solution Engineer — Deloitte
+- Location: Cincinnati, OH
+- Why it matches: Lists familiarity with agentic/LLM frameworks such as LangChain, LangGraph, Vertex AI Agent Development Kit, or OpenAI Agents SDK.
+- Link: https://www.linkedin.com/jobs/view/genai-applied-scientist-and-solution-engineer-at-deloitte-4473997099
+
+Notes
+- LinkedIn may require sign-in to view full details (responsibilities, qualifications, pay). If you want, I can pull out key qualifications/skills and tailor your resume for these roles.
